@@ -37,7 +37,7 @@ def signup_view(request):
 @api_view(["POST"])
 @permission_classes((AllowAny,))
 def login_view(request):
-    payload = json.loads(request.body)
+    payload = request.data
     email = payload["email"].lower()
     password = payload["password"]
     if email is None or password is None:
