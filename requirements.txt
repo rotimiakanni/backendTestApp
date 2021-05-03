@@ -1,8 +1,7 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-asgiref==3.3.4
-ca-certificates
+asgiref==3.2.5
 certifi==2020.12.5
 django==3.2
 django-filter==2.4.0
